@@ -1,17 +1,20 @@
-/*
-* main - print _putchar, followed by new line
- * Return: 0
- */
+#include <stdio.h>
+
+/**
+  * main - the main entry of the program
+  *
+  * Return: Always 0 (secusess)
+  */
 int main(void)
-//int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-//return 0;
-return (0);
+	int i = 0;
+	char arr[8] = "_putchar";
+
+	while (i < 8)
+	{
+		putchar (arr[i]);
+		i++;
+	}
+	putchar ('\n');
+	return (0);
 }
