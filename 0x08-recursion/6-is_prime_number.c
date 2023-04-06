@@ -1,8 +1,11 @@
 #include "main.h"
-/*
- * is_prime_number is a function
+/**
+ * prime - is a function
+ * @n: parametre
+ * @i: cccc
  *
- * */
+ * Return: 1 if we can
+ */
 int prime(int n, int i)
 {
 	if (i == 1)
@@ -11,6 +14,12 @@ int prime(int n, int i)
 		return (0);
 	return (prime(n, i - 1));
 }
+/**
+ * is_prime_number - principale function
+ * @n: para
+ *
+ * Return: 1 if n is a prime
+ */
 int is_prime_number(int n)
 {
 	if (n <= 1)
