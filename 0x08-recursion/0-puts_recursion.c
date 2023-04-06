@@ -1,8 +1,11 @@
 #include "main.h"
 /**
- * _put_recursion: is a function that can help us to puts a string.
+ * _puts_recursion - short disc
  * return void.
  * @s: is a pointer.
+ *
+ * long discription.
+ * main.h est un header
  */
 void _puts_recursion(char *s)
 {
