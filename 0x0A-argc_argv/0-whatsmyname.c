@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - function
  * @argc: para
@@ -8,6 +9,8 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("my name is %s\n", argv[0]);
+	int i = argc;
+
+	printf("my name is %s\n", argv[i]);
 	return (0);
 }
