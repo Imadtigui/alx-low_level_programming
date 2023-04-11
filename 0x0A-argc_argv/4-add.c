@@ -11,6 +11,10 @@ int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 
+	if (argc == 1)
+	{
+		printf("0\n");
+	}
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
@@ -26,6 +30,7 @@ int main(int argc, char *argv[])
 			else
 			{
 				printf("Error\n");
+				return (1);
 				break;
 			}
 		}
