@@ -6,15 +6,9 @@
  *
  * Return: 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i;
-
-	for (i = 1 ; i < argc; ++i)
-	{
-		printf("%s\n", argv[i]);
-	}
-	printf("%d\n", i - 1);
-return (0);
+	printf("%d\n", argc - 1);
+	return (0);
 }
 
