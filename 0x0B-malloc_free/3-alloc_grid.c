@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
-int **alloc_grid(int width, height)
+int **alloc_grid(int width, int height)
 {
 	int **tb, i, j;
 
