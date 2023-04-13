@@ -4,7 +4,7 @@
  * @min: para
  * @max: para
  *
- * REturn: p
+ * Return: p
  */
 int *array_range(int min, int max)
 {
