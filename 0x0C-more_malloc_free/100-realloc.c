@@ -1,4 +1,12 @@
 #include "main.h"
+/**
+ * _realloc - fun
+ * @ptr: para
+ * @old_size: para
+ * @new_size: paera
+ *
+ * Return: p
+ */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	int *p;
