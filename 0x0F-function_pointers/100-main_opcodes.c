@@ -1,5 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
+/**
+ * main - fun
+ * @argc: pa
+ * @argv: pa
+ *
+ * Return: 0
+ */
 int main(int argc, char **argv)
 {
 	char *p = (char *)main;
