@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * get_bit
+ * get_bit - fun
  * @n: para
  * @index: para
  *
