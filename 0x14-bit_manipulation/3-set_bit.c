@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * set_bit - para
+ * set_bit - fun
  * @n: para
  * @index: para
+ *
+ * Return: 1
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
